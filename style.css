@@ -623,7 +623,7 @@ hr {
     }
 
     .items {
-        height: 500px;
+        height: fit-content;
         width: 90%;
     }
 }
