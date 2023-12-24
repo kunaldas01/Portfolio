@@ -375,7 +375,7 @@ hr {
 }
 
 .items {
-    height: 550px;
+    min-height: 550px;
     width: 400px;
     border-radius: 20px;
     background-color: #e4f9f5;
@@ -411,10 +411,15 @@ hr {
 }
 
 .project-links {
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
+}
+
+.project-links a {
+    flex: 1;
 }
 
 /* Education */
@@ -624,7 +629,7 @@ hr {
 
     .items {
         height: fit-content;
-        width: 90%;
+        width: 100%;
     }
 }
 
